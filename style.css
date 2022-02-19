@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  
+}
+
+.wrapper {
+  display: flex;
+  margin: 0px auto;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.header {
+  background-color: black;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+#title {
+  font-size: 20px;
+  align-items: center;
+  text-align: left;
+  margin: 20px 0 20px 30px;
+  color: white;
+}
+
+.area-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(175, 175, 175), transparent 1px),
+    linear-gradient(90deg, rgb(124, 124, 124), transparent 1px);
+  background-size: 20px 20px;
+  background-position: center center;
+}
+
+#area {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-size: 34px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-result-wrapper {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(129, 123, 123, 0.514);
+}
+
+#modal-window {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#btn-close {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex: 0 0 auto;
+  padding: 1rem;
+  justify-content: center;
+  background-color: black;
+  font-size: 20px;
+}
+
+#footer-data {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.copyright {
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin: 0;
+  color: white;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a:hover {
+  color: #fffb00;
+}
+
+.year {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.github-username {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px;
+  transition: 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.rss-logo {
+  width: 135px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(svg/rss.svg);
+  transition: 0.3s;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
