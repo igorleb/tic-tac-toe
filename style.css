@@ -162,15 +162,15 @@ a:hover {
 }
 
 .rss-logo {
-  width: 135px;
-  height: 50px;
+  width: 80px;
+  height: 30px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(svg/rss.svg);
   transition: 0.3s;
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0 0 0 0;
+  margin: 5px -10px 0 0;
   cursor: pointer;
   text-decoration: underline;
 }
